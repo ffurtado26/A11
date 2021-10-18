@@ -1,0 +1,61 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+}
+
+.title_page {
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+
+.celebration{
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+.guest_speakers{
+	font-size: 150%;
+}
+.mission {
+	color: #800000;
+	font-size: 130%;
+}
+
+.ticket_packages {
+	color: #800000;
+	font-size: 130%;
+}
+
+.chua:hover {
+font-style: italic;
+}
+
+.sorkin:hover {
+	font-style: italic;
+}
+.toobin:hover {
+	font-style: italic;
+}
+
+.shadow {
+	text-shadow: 2px 2px #800000;
+}
+.div {
+	text-align:center
+}
+/* the styles for the footer */
+footer p {
+	text-align: center;
+}
