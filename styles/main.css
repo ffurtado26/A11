@@ -88,6 +88,7 @@ font-style: italic;
 .shadow {
 	text-shadow: 2px 2px #800000;
 }
+
 .div {
 	text-align:center;
 }
@@ -131,3 +132,7 @@ footer p {
 	background: #931420;
 }
 
+/* the styles for the footer */
+footer p {
+	text-align: center;
+}
