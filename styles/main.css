@@ -3,37 +3,73 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
-
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
 /* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;
+	background-image: -moz-linear-gradient(
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -webkit-linear-gradient(
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -o-linear-gradient(
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: linear-gradient(
+			30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
 header img {
 	float: left;
+	padding: 0 30px;
+}
+/* the styles for the section */
+main blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
 }
 
-/* the styles for the section */
+main p {
+	padding-bottom: .5em;
+}
 main {
 	clear: left;
+	padding: 0 30px;
 }
 
 .title_page {
-	font-size: 170%;
+	font-size: 175%;
 	color: #800000;
-	text-indent: 30px;
 }
 
 .celebration{
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 .guest_speakers{
 	font-size: 150%;
+	border: 3px double #800000;
+	margin-bottom: .75em;
+	border-radius: 10px;
+	box-shadow: 5px 5px;
+	padding: .5em 0 .5em 2em;
+	background-color: white;
 }
 .mission {
+	padding-top: .5em;
+	padding-bottom: .25em;
 	color: #800000;
 	font-size: 130%;
 }
 
 .ticket_packages {
+	padding-top: .5em;
+	padding-bottom: .25em;
 	color: #800000;
 	font-size: 130%;
 }
@@ -53,9 +89,45 @@ font-style: italic;
 	text-shadow: 2px 2px #800000;
 }
 .div {
-	text-align:center
+	text-align:center;
+}
+
+body {
+	width: 600px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px;
+	border-color: #931420;
+}
+
+main h1 {
+	font-size: 150%;
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+	padding: .3em 0;
+}
+
+body {
+	background-color: #fffded;
+}
+main ul {
+	padding: 0 0 .25em 1.25em;
+}
+main li {
+	padding-bottom: .35em;
+}
+main img{
+	padding-bottom: 1em;
 }
 /* the styles for the footer */
 footer p {
 	text-align: center;
+	color: white;
+	padding-bottom: 1em;
 }
+.site-footer {
+	background: #931420;
+}
+
